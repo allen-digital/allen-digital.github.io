@@ -1,0 +1,276 @@
+avatar: https://s.gravatar.com/avatar/c73da5822a991b680a6fcaa465a78d56?size=200
+
+statement:
+  - >
+    An exceptional and respected professional developer with experience leading and 
+    architecting working software for government projects. I advocate a clean, 
+    systematic and delivery-driven approach to Agile software development which 
+    helps cross-functional teams to pull together.
+
+  - >
+    As a technical lead I take a team improvement seriously, putting effort into 
+    upskilling through pair programming, mentoring and empowerment.
+
+  - >
+    I am dedicated, flexible, and reliable, a valuable addition to any team.
+
+skills:
+  intro: >
+    I consider myself a T shaped developer, with hands-on experience in every
+    area of Software Development. I also consider myself tool-agnostic, capable
+    of rapidly becoming effective and productive in any language or toolchain.
+
+  dev:
+    favour:
+      - Node.js
+      - ES6
+      - Scala
+      - Python
+      - Bash
+    skilled:
+      - Java
+      - Ruby
+      - CSS
+      - HTML
+      - C#
+      - Objective C
+    detail:
+      - >
+        I gently enforce best practice approach to testing and code quality
+        through code reviews and pair programming
+      - >
+        I use targeted pair refactoring to work with members of a team to
+        simultaneously clean up areas of the codebase that are in need of
+        refactoring and teach good practices to the team
+      - >
+        I take a pragmatic approach to reuse of code, asking my developers to
+        follow the Rule of 3, "rewrite it three times before writing a reuseable
+        solution"
+
+  ops:
+    favour:
+      - Docker
+      - Ansible
+      - Nginx
+      - AWS
+    skilled:
+      - Puppet
+      - Heroku
+      - Terraform
+      - Azure
+    detail:
+      - >
+        I encourage my teams to own their code through to live operation, owning
+        their deployment pipeline or collaborating closely with Ops
+      - >
+        I look to automate repetitive tasks at every step of development,
+        including automated build, deployment and testing
+      - I have real world experience building Continuous Integration pipelines
+      - >
+        I emphasise Devops culture on teams I lead, by supporting developers
+        learning to build infrastructure automation and deployment code
+
+  tools:
+    detail:
+      - I work on Ubuntu and Mac OSX.
+      - I use Docker to create development environments
+      - I have used VirtualBox and Vagrant for development environments
+      - I am fluent in Bash and Zsh
+      - >
+        I use Vim as my primary editor, fallback on IntelliJ and Atom if Vim
+        doesn't suit
+
+  practices:
+    detail:
+      - >
+        I am skilled at teaching others how to approach writing user stories and
+        training them in Agile development
+      - >
+        I have led Product Owners and Business Analysts in reshaping their
+        Waterfall plan into a Backlog of user focused stories
+      - >
+        I have experience working on teams as a Scrum Master, mediating
+        disputes, clearing up miscommunications, and finding solutions to
+        blockers
+
+experience:
+  - name: Apply for Divorce
+    client: HM Courts and Tribunal Service
+    from: April 2016
+    to: Aug 2017
+    duration: 1 year, 5 months
+    statement:
+      - >
+        As Technical Lead, I lead a team in the development of the Apply for
+        Divorce service. Starting from discovery of the problem space through to
+        release and iteration of a successful Private Beta, I shaped the
+        technical design and pushed for constantly better software and software
+        delivery.
+      - >
+        In order to prevent blocking the team while we hired more Ops staff, I
+        worked with a fellow Tecn Lead in building and advocating for more
+        reliable, automated, Infrastructure. Together we reinvigorated the
+        programmes Ops team and brought more modern release practices to the
+        development pipeline.
+    technologies:
+      - Node.JS
+      - Express
+      - Webpack
+      - Jinja / Nunjucks
+      - Ansible
+    contacts:
+      - name: Rhys Williams
+        url: https://www.linkedin.com/in/rhys-williams-8062771/
+      - name: Mette Rene Lyckegaard
+        url: https://www.linkedin.com/in/metterene/
+      - name: Chris Neale
+        url: https://www.linkedin.com/in/christopherneale/
+      - name: Lukasz Drynski
+        url: https://www.linkedin.com/in/lukaszdrynski/
+      - name: Rob Young
+        url: https://www.linkedin.com/in/robyoung101/
+
+  - name: Lighthouse
+    client: Defence Science and Technology Laboratory
+    from: Jan 2016
+    to: March 2016
+    duration: 3 months
+    statement:
+      - >
+        As Infrastructure Engineer, I built an automated delivery pipeline
+        that needed to deploy in to a highly secure environment that we had
+        no access to.
+    technologies:
+      - Ansible
+      - Terraform
+      - Vagrant
+      - Python
+      - Django
+      - Jinja
+    sources:
+      - name: Lighthouse code
+        url: https://github.com/michaeldfallen/lighthouse
+      - name: Infrastructure code
+        url: https://github.com/michaeldfallen/lighthouse-builder
+    contacts:
+      - name: Roo Reynolds
+        url: https://www.linkedin.com/in/rooreynolds/
+      - name: Rich Brantingham
+        url: https://www.linkedin.com/in/rich-brantingham-246061b3/
+      - name: Mark Norm Francis
+        url: https://www.linkedin.com/in/marknormanfrancis/
+      - name: Dan Hough
+        url: https://www.linkedin.com/in/basicallydan/
+
+  - name: Sign your Mortgage
+    client: Land Registry
+    from: Feb 2014
+    to: Sept 2015
+    duration: 1 year, 8 months
+    statement:
+      - >
+        As Technical Lead, I led a 7 person team in the development of the
+        Sign your Mortgage service. The team comprised of a mix of contractors
+        and Civil Servants, who were in the process of learning new technologies
+        and modernising the Land Registry's product delivery.
+      - >
+        I closely mentored the Civil Servants in my team, through pair
+        programming and workshops, to help them gain skill in the tech we
+        were working in as ultimately they would own the service once complete.
+      - >
+        I designed the system architecture iteratively based on discussions with
+        the Product Owner and investigation of the requirements with Land
+        Registry subject matter experts.
+    technologies:
+      - Python
+      - Puppet
+      - Vagrant
+      - AWS
+      - Jinja
+      - Flask
+    sources:
+      - name: Dev VM
+        url: https://github.com/LandRegistry/dev-vm
+      - name: Borrower Frontend
+        url: https://github.com/michaeldfallen/charges-borrower-frontend
+      - name: Conveyancer Frontend
+        url: https://github.com/michaeldfallen/charges-conveyancer-frontend
+      - name: Case API
+        url: https://github.com/michaeldfallen/charges-case-api
+      - name: Deed API
+        url: https://github.com/michaeldfallen/charges-deed-api
+      - name: Scribe
+        url: https://github.com/michaeldfallen/charges-scribe
+    contacts:
+      - name: Andrew Jackson
+        url: https://www.linkedin.com/in/andrew-jackson-61b492/
+      - name: Enda McCormack
+        url: https://www.linkedin.com/in/endamccormack/
+      - name: Claire Durrant
+        url: https://www.linkedin.com/in/claire-durrant-assoc-cipd-2a407b23/
+
+
+  - name: Security Platform
+    client: Department for Work and Pensions
+    from: Sept 2014
+    to: Feb 2015
+    duration: 6 months
+    statement:
+      - >
+        As Technical Lead, I worked closely with the DWP teams Product Owner and
+        Technical Architects to rebuild their waterfall plan in to an iterative
+        backlog.
+
+  - name: Register to Vote
+    client: Government Digital Service
+    from: Feb 2012
+    to: Aug 2014
+    duration: 2 years, 6 months
+    statement:
+      - >
+        Durating the initial Alpha of the Register to Vote service I worked as
+        a developer in building the service collaboratively with Design and
+        Research.
+      - >
+        After Alpha the team split in two, with half focusing on the backend
+        service and the other half focusing on the frontend user journey. On
+        that team I stepped in to act as a Lead Developer for the Frontend,
+        designing the component architecture for the Frontend app and
+        implementing a significant amount of the components.
+      - >
+        I worked closely with the Designer and Researcher to ensure that the app
+        held to the best experience possible for the user.
+    sources:
+      - name: Register to Vote Service
+        url: https://www.gov.uk/register-to-vote
+      - name: IER Frontend source code
+        url: https://github.com/michaeldfallen/ier-frontend
+    contacts:
+      - name: Martyn Inglis
+        url: https://www.linkedin.com/in/martyn-inglis-144b57
+      - name: Mat Wall
+        url: https://www.linkedin.com/in/mat-wall-1b07321/
+      - name: Joe Lanman
+        url: https://www.linkedin.com/in/joelanman/
+      - name: Peter Herlihy
+        url: https://www.linkedin.com/in/peterherlihy/
+    technologies:
+      - Scala
+      - Play Framework
+      - Mustache
+
+
+qualifications:
+  - course: Certified Scrum Master
+    school: ScrumAlliance
+  - course: Functional Programming in Scala
+    school: École polytechnique fédérale de Lausanne
+  - course: Principles of Reactive Programming
+    school: École polytechnique fédérale de Lausanne
+  - course: Computer Science, 1st class Masters degree
+    school: Queens University Belfast
+
+contact:
+  twitter: '@michaeldfallen'
+  email: michael@allen.digital
+  linkedIn: michaeldfallen

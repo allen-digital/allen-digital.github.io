@@ -1,0 +1,290 @@
+$mq-breakpoints: (
+  xs: 0,
+  sm: 400px,
+  md: 590px,
+  lg: 720px,
+  xl: 960px
+) !default;
+
+$grid-gutter: 40px;
+
+$med-grey: #999;
+$dark-grey: #333;
+$light-grey: #e5e5e5;
+
+@mixin print {
+  @include mq(0px, $media-type: print) {
+    @content;
+  }
+}
+
+@import 'baseguide';
+
+@mixin thick-border {
+  border-top: $dark-grey 0.5em solid;
+}
+
+@mixin thin-border {
+  border-top: $dark-grey 0.1em solid;
+}
+
+@page {
+  margin: 0 0.5cm;
+}
+
+@mixin leftColumn {
+  @include column-base;
+
+  @include print {
+    @include column(30%);
+
+    text-align: right;
+  }
+  @include mq(md, $media-type: screen) {
+    @include column(40%);
+
+    text-align: right;
+  }
+}
+
+@mixin rightColumn {
+  @include column-base;
+
+  @include print {
+    @include column(70%);
+  }
+  @include mq(md, $media-type: screen) {
+    @include column(60%);
+  }
+}
+
+@mixin section {
+  @include row;
+  @include thin-border;
+  padding-top: $spacing-base;
+}
+
+@mixin bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+main {
+  @include container;
+}
+
+footer {
+  @include thin-border;
+  min-height: 10rem;
+  background-color: $light-grey;
+  margin-top: $spacing-base;
+
+  div.wrapper {
+    @include container;
+    padding-top: $spacing-base;
+  }
+
+  @include print {
+    display: none;
+  }
+}
+
+.top-matter {
+  @include row;
+  @include thick-border;
+  padding-top: $spacing-base;
+
+  header {
+    @include leftColumn;
+
+    @include print {
+      @include column(50%);
+      text-align: left;
+    }
+
+    .subtitle {
+      font-size: 1.3rem;
+      display: block;
+      font-weight: $font-weight-base;
+      color: $med-grey;
+    }
+  }
+
+  nav {
+    @include rightColumn;
+
+    ul {
+      @include list-inline;
+      @include bottom;
+      margin-bottom: $spacing-base;
+    }
+    @include print {
+      display: none;
+    }
+  }
+
+  address {
+    display: none;
+    @include print {
+      @include column-base;
+      @include column(50%);
+      display: block;
+      text-align: right;
+
+      .dim {
+        color: $med-grey !important;
+      }
+    }
+  }
+}
+
+section.statement {
+  @include row;
+
+  .avatar {
+    @include leftColumn;
+
+    img {
+      -webkit-border-radius: 99em;
+      -moz-border-radius: 99em;
+      border-radius: 99em;
+      box-shadow: 0 1px 3px 1px rgba(0,0,0,0.25);
+    }
+  }
+
+  .personalStatement {
+    @include rightColumn;
+  }
+}
+
+section {
+  @include row;
+
+  &.groupHeading {
+    @include section;
+    margin-top: $spacing-base;
+    padding-top: 2 * $spacing-base;
+    @include print {
+      page-break-inside: avoid;
+      margin-top: 0;
+      padding-top: 0;
+      border: 0;
+    }
+  }
+
+  &.experience {
+    margin-top: $spacing-base;
+  }
+
+  header {
+    @include leftColumn;
+
+    .client {
+      //font-weight: 700;
+      display: block;
+    }
+    .duration {
+      color: $med-grey;
+      display: block;
+      margin-bottom: $spacing-base;
+    }
+    .date {
+      color: $med-grey;
+      display: block;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0;
+    }
+
+    @include print {
+      h2 {
+        font-size: 1.8rem;
+      }
+      page-break-inside: avoid;
+    }
+  }
+
+  div {
+    @include rightColumn;
+
+    .label {
+      font-weight: 700;
+      display: inline-block;
+      width: 5rem;
+    }
+  }
+}
+
+ul {
+  padding-left: 1rem;
+
+  &.inline {
+    @include list-unstyled;
+
+    ul {
+      @include list-inline;
+      margin-left: 0;
+
+      &:before {
+        content:attr(aria-label);
+        display: inline-block;
+        float: left;
+        margin-right: 0.5em;
+      }
+
+      li {
+        margin-left: 0;
+        margin-right: 0.5em;
+
+        &:after {
+          content: ', ';
+        }
+
+        &:last-child:after {
+          content: '';
+        }
+
+        &.skill {
+          font-style: italic;
+        }
+      }
+
+      @include print {
+        &.contacts {
+          li {
+            clear: left;
+            list-style: disc;
+            margin-left: 1rem;
+
+            &:after {
+              content: '';
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+span.school {
+  font-style: italic;
+}
+
+@include print {
+  a {
+    text-decoration: none;
+    &:after {
+      content: ' (' attr(href) ')';
+      color: $med-grey !important;
+    }
+  }
+  a.anchor {
+    display: none;
+  }
+
+  section.contacts {
+    display: none;
+  }
+}

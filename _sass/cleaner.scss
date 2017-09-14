@@ -1,0 +1,32 @@
+$mq-breakpoints: (
+  xs: 0,
+  sm: 400px,
+  md: 590px,
+  lg: 720px,
+  xl: 960px
+) !default;
+
+$grid-gutter: 40px;
+
+@import 'baseguide';
+
+main {
+  @include container;
+
+  h1 {
+    @include column(5);
+    @extend .text-right;
+  }
+
+  ul {
+    @include list-inline;
+    @include column-offset(5);
+  }
+
+  p > img {
+    
+  }
+  p {
+    @include column-offset(5);
+  }
+}
