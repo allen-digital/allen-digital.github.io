@@ -109,6 +109,7 @@ footer {
   @include row;
   @include thick-border;
   padding-top: $spacing-base;
+  position: relative;
 
   @include print {
     padding-top: 0;
@@ -117,6 +118,10 @@ footer {
 
   header {
     @include leftColumn;
+
+    @include mq(xs, md, $media-type: screen) {
+      @include column(80%);
+    }
 
     @include print {
       @include column(50%);
@@ -142,6 +147,7 @@ footer {
 
   nav {
     @include rightColumn;
+    min-height: 2em;
 
     ul.navigation {
       @include list-inline;
@@ -354,7 +360,7 @@ span.school {
 .buttons {
   position: absolute;
   right: $spacing-base;
-  top: 0;
+  top: $spacing-base;
   @include list-unstyled;
 }
 
