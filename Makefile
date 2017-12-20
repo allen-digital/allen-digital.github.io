@@ -11,3 +11,6 @@ build:
 
 run:
 	$(call compose, run --service-ports dev)
+
+pdf: build
+	$(call compose, run pdf)

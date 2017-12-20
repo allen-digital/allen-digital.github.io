@@ -15,10 +15,11 @@ skillSections:
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Allen.Digital</title>
-    <meta name="description" content="Contract Software Engineer">
+    <title>CV - {{ site.data.cv.me.name }}</title>
+    <meta name="description" content="{{ site.data.cv.me.role }}">
 
     <link rel="stylesheet" href="/css/site.css" type="text/css" media="all" />
+    <script type="text/javascript" src="/js/main.js"></script>
 
       <!--[if lt IE 9]>
       <![endif]-->
@@ -29,24 +30,29 @@ skillSections:
   <main>
     <section class="top-matter">
       <header>
-        <h1>Michael Allen
-          <span class="subtitle">Contract Software Engineer</span>
+        <h1>{{ site.data.cv.me.name }}
+          <span class="subtitle">{{ site.data.cv.me.role }}</span>
         </h1>
-        <p>Next available: Sept 2017</p>
+        <p class="availability">Next available: {{ site.data.cv.me.nextAvailable }}</p>
       </header>
       <nav>
-        <ul>
+        <ul class="navigation">
           <li><a href="#skills">Skills</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#qualifications">Qualifications</a></li>
           <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="buttons">
+          <li><a class="print-button">Print</a></li>
+          <li><a class="pdf-button" href="./cv.pdf">PDF</a></li>
         </ul>
       </nav>
       <address>
         {% assign email = site.data.cv.contact.email %}
         {% assign linkedIn = site.data.cv.contact.linkedIn %}
         {% assign twitter = site.data.cv.contact.twitter %}
-        <ul class="inline">
+        {% assign web = site.data.cv.contact.web %}
+        <ul class="unstyled">
           <li>
             {{ email }}
           </li>
@@ -56,14 +62,15 @@ skillSections:
           <li>
             <span class="dim">twitter.com/</span>{{ twitter }}
           </li>
-          <li>www.michaelallen.io</li>
+          <li>{{ web }}</li>
         </ul>
       </address>
+
     </section>
 
     <section class="statement">
       <div class="avatar">
-        <img src="{{ site.data.cv.avatar }}"
+        <img src="{{ site.data.cv.me.avatar }}"
              alt="A picture of Michael Allen">
       </div>
       <div class="personalStatement">
@@ -90,10 +97,10 @@ skillSections:
       <header><h3>{{ section.name }}</h3></header>
       <div>
         {% if skills.favour or skills.skilled %}
-        <ul class="inline">
+        <ul class="unstyled">
           {% if skills.favour %}
           <li>
-            <ul aria-label="I prefer using:">
+            <ul aria-label="I prefer using:" class="inline">
             {% for skill in skills.favour %}
               <li class="skill">{{ skill }}</li>
             {% endfor %}
@@ -103,7 +110,7 @@ skillSections:
 
           {% if skills.skilled %}
           <li>
-            <ul aria-label="I am also skilled in:">
+            <ul aria-label="I am also skilled in:" class="inline">
             {% for skill in skills.skilled %}
               <li class="skill">{{ skill }}</li>
             {% endfor %}
@@ -146,10 +153,10 @@ skillSections:
         <p>{{ para }}</p>
         {% endfor %}
 
-        <ul class="inline">
+        <ul class="unstyled">
           {% if position.technologies %}
           <li>
-            <ul aria-label="Technologies used:">
+            <ul aria-label="Technologies used:" class="inline">
             {% for tech in position.technologies %}
               <li class="skill">{{ tech }}</li>
             {% endfor %}
@@ -158,8 +165,8 @@ skillSections:
           {% endif %}
 
           {% if position.sources %}
-          <li>
-            <ul aria-label="Links:">
+          <li class="experience-sources">
+            <ul aria-label="Sources:" class="sources inline">
             {% for source in position.sources %}
               <li><a href="{{ source.url }}">{{ source.name }}</a></li>
             {% endfor %}
@@ -169,7 +176,7 @@ skillSections:
 
           {% if position.contacts %}
           <li>
-            <ul aria-label="Contacts:" class="contacts">
+            <ul aria-label="Contacts:" class="contacts inline">
             {% for contact in position.contacts %}
               <li><a href="{{ contact.url }}">{{ contact.name }}</a></li>
             {% endfor %}
@@ -188,7 +195,7 @@ skillSections:
         <h2>Qualifications</h2>
       </header>
       <div>
-        <ul class="inline">
+        <ul class="unstyled">
           {% for qualification in site.data.cv.qualifications %}
           <li>
             {{ qualification.course }},
@@ -203,7 +210,7 @@ skillSections:
     <section class="groupHeading contacts">
       <header><h2>Contact</h2></header>
       <div>
-        <ul class="inline">
+        <ul class="unstyled">
           <li>
             {% assign email = site.data.cv.contact.email %}
             <span class="label">Email</span>
@@ -219,6 +226,11 @@ skillSections:
             <span class="label">Twitter</span>
             <a href="https://twitter.com/{{ twitter }}" id="twitter">{{ twitter }}</a>
           </li>
+          <li>
+            {% assign web = site.data.cv.contact.web %}
+            <span class="label">Website</span>
+            <a href="https://{{ web }}" id="twitter">{{ web }}</a>
+          </li>
         </ul>
       </div>
     </section>
@@ -230,8 +242,12 @@ skillSections:
         <header>
         </header>
         <div>
-          <ul class="inline">
-            <li>Built with Jekyll</li>
+          <ul class="unstyled">
+            <li>
+              <ul aria-label="Built with" class="inline">
+                <li>Jekyll</li>
+              </ul>
+            </li>
             <li>Hosted on Github Pages</li>
             <li>
               Source code at

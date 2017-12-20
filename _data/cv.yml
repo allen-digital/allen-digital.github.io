@@ -1,9 +1,13 @@
-avatar: https://s.gravatar.com/avatar/c73da5822a991b680a6fcaa465a78d56?size=200
+me:
+  name: Michael Allen
+  role: Contract Software Engineer
+  avatar: https://s.gravatar.com/avatar/c73da5822a991b680a6fcaa465a78d56?size=200
+  nextAvailable: Jan 2018
 
 statement:
   - >
     An exceptional and respected professional developer with experience leading and 
-    architecting working software for government projects. I advocate a clean, 
+    architecting digital services for government projects. I advocate a clean, 
     systematic and delivery-driven approach to Agile software development which 
     helps cross-functional teams to pull together.
 
@@ -94,6 +98,37 @@ skills:
         blockers
 
 experience:
+  - name: One per Page
+    client: HM Courts and Tribunal Service
+    from: Oct 2017
+    to: Ongoing
+    statement:
+      - >
+        As Lead Maintainer, I built and released an open source library that
+        makes building the "One question per page" style services easier.
+      - >
+        I drew on my previous experience with Apply for Divorce and Register to
+        Vote to solve the hard problems involved with One per Page transactions.
+      - >
+        In developing this framework I put a lot of effort in to researching
+        with real users, gathering their feedback to ensure that the interfaces
+        I designed were easy to understand and flexible enough to customise to
+        their need.
+    technologies:
+      - Node.JS
+      - Express
+      - Webpack
+      - Nunjucks
+      - Sass
+    contacts:
+      - name: Jason Paige
+        url: https://www.linkedin.com/in/jasonrichardpaige/
+    sources:
+      - url: https://github.com/hmcts/one-per-page
+        name: One per Page (GitHub)
+      - url: https://github.com/hmcts/look-and-feel
+        name: Look and Feel (GitHub)
+
   - name: Apply for Divorce
     client: HM Courts and Tribunal Service
     from: April 2016
@@ -101,7 +136,7 @@ experience:
     duration: 1 year, 5 months
     statement:
       - >
-        As Technical Lead, I lead a team in the development of the Apply for
+        As Technical Lead, I led a team in the development of the Apply for
         Divorce service. Starting from discovery of the problem space through to
         release and iteration of a successful Private Beta, I shaped the
         technical design and pushed for constantly better software and software
@@ -121,14 +156,18 @@ experience:
     contacts:
       - name: Rhys Williams
         url: https://www.linkedin.com/in/rhys-williams-8062771/
-      - name: Mette Rene Lyckegaard
-        url: https://www.linkedin.com/in/metterene/
       - name: Chris Neale
         url: https://www.linkedin.com/in/christopherneale/
-      - name: Lukasz Drynski
-        url: https://www.linkedin.com/in/lukaszdrynski/
-      - name: Rob Young
-        url: https://www.linkedin.com/in/robyoung101/
+
+  - name: Lighthouse support
+    client: Defence Science and Technology Laboratory
+    from: Dec 2016
+    to: Feb 2017
+    duration: 3 months
+    statement:
+      - >
+        Ongoing support for the team in DSTL as they scaled out the Lighthouse
+        project to more users.
 
   - name: Lighthouse
     client: Defence Science and Technology Laboratory
@@ -157,10 +196,6 @@ experience:
         url: https://www.linkedin.com/in/rooreynolds/
       - name: Rich Brantingham
         url: https://www.linkedin.com/in/rich-brantingham-246061b3/
-      - name: Mark Norm Francis
-        url: https://www.linkedin.com/in/marknormanfrancis/
-      - name: Dan Hough
-        url: https://www.linkedin.com/in/basicallydan/
 
   - name: Sign your Mortgage
     client: Land Registry
@@ -204,11 +239,6 @@ experience:
     contacts:
       - name: Andrew Jackson
         url: https://www.linkedin.com/in/andrew-jackson-61b492/
-      - name: Enda McCormack
-        url: https://www.linkedin.com/in/endamccormack/
-      - name: Claire Durrant
-        url: https://www.linkedin.com/in/claire-durrant-assoc-cipd-2a407b23/
-
 
   - name: Security Platform
     client: Department for Work and Pensions
@@ -248,10 +278,6 @@ experience:
     contacts:
       - name: Martyn Inglis
         url: https://www.linkedin.com/in/martyn-inglis-144b57
-      - name: Mat Wall
-        url: https://www.linkedin.com/in/mat-wall-1b07321/
-      - name: Joe Lanman
-        url: https://www.linkedin.com/in/joelanman/
       - name: Peter Herlihy
         url: https://www.linkedin.com/in/peterherlihy/
     technologies:
@@ -274,3 +300,4 @@ contact:
   twitter: '@michaeldfallen'
   email: michael@allen.digital
   linkedIn: michaeldfallen
+  web: www.michaelallen.io

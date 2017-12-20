@@ -7,3 +7,19 @@ services:
       - .:/usr/src/app
     ports:
       - "4000:4000"
+
+  pdf:
+    image: openlabs/docker-wkhtmltopdf
+    volumes:
+      - .:/usr/src/app
+    depends_on:
+      - start_dependencies
+    links:
+      - dev
+    command: --print-media-type dev:4000 /usr/src/app/cv.pdf
+
+  start_dependencies:
+    image: dadarek/wait-for-dependencies
+    depends_on:
+      - dev
+    command: dev:4000
