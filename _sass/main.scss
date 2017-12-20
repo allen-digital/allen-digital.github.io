@@ -363,6 +363,10 @@ span.school {
   right: $spacing-base;
   top: $spacing-base;
   @include list-unstyled;
+
+  @include print {
+    display: none;
+  }
 }
 
 .pdf-button {
