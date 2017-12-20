@@ -179,6 +179,7 @@ section.statement {
 
   .avatar {
     @include leftColumn;
+    padding-bottom: $spacing-base;
 
     img {
       -webkit-border-radius: 99em;
