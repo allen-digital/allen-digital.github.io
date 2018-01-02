@@ -226,6 +226,10 @@ section {
   header {
     @include leftColumn;
 
+    h1, h2, h3, h4, h5, h6 {
+      white-space: nowrap;
+    }
+
     .client {
       //font-weight: 700;
       display: block;
@@ -244,6 +248,19 @@ section {
       }
       color: $med-grey;
       display: block;
+    }
+
+    &:hover a.anchor {
+      color: $light-grey;
+    }
+    a.anchor {
+      display: inline;
+      padding-top: 1em;
+      color: rgba(0, 0, 0, 0);
+
+      @include print {
+        display: none;
+      }
     }
 
     h3 {

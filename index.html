@@ -80,10 +80,12 @@ skillSections:
       </div>
     </section>
 
-    <a class="anchor" id="skills"></a>
     <section class="groupHeading">
       <header>
-        <h2>Skills</h2>
+        <h2>
+          <a class="anchor" id="skills" href="#skills">#</a>
+          Skills
+        </h2>
       </header>
       <div>
         {% for para in site.data.cv.skills.intro %}
@@ -94,7 +96,12 @@ skillSections:
     {% for section in page.skillSections %}
     {% assign skills = site.data.cv.skills[section.skillKey]%}
     <section>
-      <header><h3>{{ section.name }}</h3></header>
+      <header>
+        <h3>
+          <a class="anchor" href="#{{ section.name | slugify }}" id="{{ section.name | slugify }}">#</a>
+          {{ section.name }}
+        </h3>
+      </header>
       <div>
         {% if skills.favour or skills.skilled %}
         <ul class="unstyled">
@@ -131,10 +138,12 @@ skillSections:
     </section>
     {% endfor %}
 
-    <a class="anchor" id="experience"></a>
     <section class="groupHeading">
       <header>
-        <h2>Experience</h2>
+        <h2>
+          <a class="anchor" id="experience" href="#experience">#</a>
+          Experience
+        </h2>
       </header>
     </section>
 
@@ -142,7 +151,10 @@ skillSections:
 
     <section class="experience">
       <header>
-        <h3>{{position.name}}</h3>
+        <h3>
+          <a class="anchor" href="#{{ position.name | slugify }}" id="{{ position.name | slugify }}">#</a>
+          {{position.name}}
+        </h3>
         <span class="client">{{ position.client }}</span>
         <span class="date">{{ position.from }} - {{ position.to | default: ongoing }}</span>
         <span class="duration">{{ position.duration }}</span>
@@ -189,10 +201,12 @@ skillSections:
 
     {% endfor %}
 
-    <a class="anchor" id="qualifications"></a>
     <section class="groupHeading">
       <header>
-        <h2>Qualifications</h2>
+        <h2>
+          <a class="anchor" id="qualifications" href="#qualifications">#</a>
+          Qualifications
+        </h2>
       </header>
       <div>
         <ul class="unstyled">
@@ -208,7 +222,12 @@ skillSections:
 
     <a class="anchor" id="contact"></a>
     <section class="groupHeading contacts">
-      <header><h2>Contact</h2></header>
+      <header>
+        <h2>
+          <a class="anchor" id="contact" href="#contact">#</a>
+          Contact
+        </h2>
+      </header>
       <div>
         <ul class="unstyled">
           <li>
