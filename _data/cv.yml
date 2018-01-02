@@ -125,9 +125,9 @@ experience:
         url: https://www.linkedin.com/in/jasonrichardpaige/
     sources:
       - url: https://github.com/hmcts/one-per-page
-        name: One per Page (GitHub)
+        name: One per Page
       - url: https://github.com/hmcts/look-and-feel
-        name: Look and Feel (GitHub)
+        name: Look and Feel
 
   - name: Apply for Divorce
     client: HM Courts and Tribunal Service
