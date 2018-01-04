@@ -1,5 +1,5 @@
 $mq-breakpoints: (
-  xs: 0,
+  xs: 0px,
   sm: 400px,
   md: 590px,
   lg: 720px,
@@ -228,6 +228,7 @@ section {
 
     h1, h2, h3, h4, h5, h6 {
       white-space: nowrap;
+      position: relative;
     }
 
     .client {
@@ -257,6 +258,12 @@ section {
       display: inline;
       padding-top: 1em;
       color: rgba(0, 0, 0, 0);
+
+      @include mq(0px, $until: md, $media-type: screen) {
+        position: absolute;
+        left: $spacing-base * -0.5;
+        bottom: 0;
+      }
 
       @include print {
         display: none;
