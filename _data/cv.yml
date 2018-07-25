@@ -124,6 +124,7 @@ experience:
     client: HM Courts and Tribunal Service
     from: Oct 2017
     to: Mar 2018
+    duration: 5 months
     statement:
       - >
         As Lead Maintainer, I built and released an open source library that
