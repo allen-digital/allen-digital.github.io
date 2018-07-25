@@ -2,7 +2,7 @@ me:
   name: Michael Allen
   role: Contract Software Engineer
   avatar: https://s.gravatar.com/avatar/c73da5822a991b680a6fcaa465a78d56?size=200
-  nextAvailable: March 2018
+  nextAvailable: September 2018
 
 statement:
   - >
@@ -98,10 +98,32 @@ skills:
         blockers
 
 experience:
+  - name: MyAccount and Core team
+    client: DAZN (via 101 Ways)
+    from: Mar 2018
+    to: Ongoing
+    statement:
+      - >
+        As a Senior React Developer, I worked with a 4 developer team to build the
+        MyAccount section of DAZNs rebuilt streaming platform. In building MyAccount
+        I quickly got up to speed with modern JS frameworks the DAZN team used, MobX
+        and MobX-state-tree for state management and React.
+      - >
+        I took the lead on building a library that integrated MobX with React-router,
+        allowing the teams in DAZN to benefit from both technologies. I treated this
+        library as if it was an open source project, generously documenting it and
+        gathering feedback from users in order to improve it. Three of the teams now
+        use it in their apps.
+    technologies:
+      - React
+      - Mobx and Mobx-state-tree
+      - Webpack
+      - AWS Lambda
+      
   - name: One per Page
     client: HM Courts and Tribunal Service
     from: Oct 2017
-    to: Ongoing
+    to: Mar 2018
     statement:
       - >
         As Lead Maintainer, I built and released an open source library that
