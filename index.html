@@ -156,6 +156,9 @@ skillSections:
           {{position.name}}
         </h3>
         <span class="client">{{ position.client }}</span>
+        {% if position.via %}
+        <span class="via">via <a href="{{ position.via.link }}">{{ position.via.name }}</a></span>
+        {% endif %}
         <span class="date">{{ position.from }} - {{ position.to | default: ongoing }}</span>
         <span class="duration">{{ position.duration }}</span>
       </header>

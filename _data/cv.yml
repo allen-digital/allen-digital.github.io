@@ -99,7 +99,10 @@ skills:
 
 experience:
   - name: MyAccount and Core team
-    client: DAZN (via 101 Ways)
+    client: DAZN
+    via:
+      name: 101 Ways
+      link: https://www.101ways.com
     from: Mar 2018
     to: Ongoing
     statement:
@@ -122,6 +125,9 @@ experience:
 
   - name: One per Page
     client: HM Courts and Tribunal Service
+    via:
+      name: Digi2al
+      link: https://www.digi2al.com
     from: Oct 2017
     to: Mar 2018
     duration: 5 months
@@ -154,6 +160,9 @@ experience:
 
   - name: Apply for Divorce
     client: HM Courts and Tribunal Service
+    via:
+      name: Digi2al
+      link: https://www.digi2al.com
     from: April 2016
     to: Aug 2017
     duration: 1 year, 5 months
@@ -184,6 +193,9 @@ experience:
 
   - name: Lighthouse support
     client: Defence Science and Technology Laboratory
+    via:
+      name: Digi2al
+      link: https://www.digi2al.com
     from: Dec 2016
     to: Feb 2017
     duration: 3 months
@@ -194,6 +206,9 @@ experience:
 
   - name: Lighthouse
     client: Defence Science and Technology Laboratory
+    via:
+      name: Digi2al
+      link: https://www.digi2al.com
     from: Jan 2016
     to: March 2016
     duration: 3 months
@@ -222,6 +237,9 @@ experience:
 
   - name: Sign your Mortgage
     client: Land Registry
+    via:
+      name: Kainos
+      link: https://www.kainos.com
     from: Feb 2014
     to: Sept 2015
     duration: 1 year, 8 months
@@ -265,6 +283,9 @@ experience:
 
   - name: Security Platform
     client: Department for Work and Pensions
+    via:
+      name: Kainos
+      link: https://www.kainos.com
     from: Sept 2014
     to: Feb 2015
     duration: 6 months
@@ -276,6 +297,9 @@ experience:
 
   - name: Register to Vote
     client: Government Digital Service
+    via:
+      name: Kainos
+      link: https://www.kainos.com
     from: Feb 2012
     to: Aug 2014
     duration: 2 years, 6 months
