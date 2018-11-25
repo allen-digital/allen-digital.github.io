@@ -53,6 +53,7 @@ skills:
 
   ops:
     favour:
+      - Drone CI
       - Docker
       - Ansible
       - Nginx
@@ -80,9 +81,7 @@ skills:
       - I use Docker to create development environments
       - I have used VirtualBox and Vagrant for development environments
       - I am fluent in Bash and Zsh
-      - >
-        I use Vim as my primary editor, fallback on IntelliJ and Atom if Vim
-        doesn't suit
+      - I use Vim as my primary editor, fallback on VSCode if Vim doesn't suit
 
   practices:
     detail:
