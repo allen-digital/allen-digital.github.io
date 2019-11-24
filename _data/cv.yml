@@ -2,7 +2,7 @@ me:
   name: Michael Allen
   role: Contract Software Engineer
   avatar: https://s.gravatar.com/avatar/c73da5822a991b680a6fcaa465a78d56?size=200
-  nextAvailable: January 2019
+  nextAvailable: January 2020
 
 statement:
   - >
@@ -97,13 +97,45 @@ skills:
         blockers
 
 experience:
+  - name: Spark
+    client: Financial Times
+    from: Jan 2019
+    to: Ongoing
+    statement:
+      - >
+        Working as part of a cross-discipline team, I led the creation of a new
+        Content Editor based on the Prosemirror library and React. During inital
+        development I focused on proving the teams main requirements of a simple
+        user interface, interactive components (to allow customisation of content),
+        and multi-user collaboration.
+
+      - >
+        As Prosemirror's interfaces are quite complicated and the library was
+        unknown to the team I built abstractions to integrate Prosemirror with
+        the more familar world of React. This allowed the team to build powerful
+        interactive components into the editing surface.
+
+      - >
+        After initial implementation and a successful switch of all users to the
+        new Prosemirror editor, I worked on building a powerful version management
+        system that allowed users to track contributions to an article, compare
+        differences between each version and roll back undesired changes.
+
+    technologies:
+      - Prosemirror
+      - React
+      - Node.JS
+      - Webpack
+      - Heroku
+
   - name: Core team
     client: DAZN
     via:
       name: 101 Ways
       link: https://www.101ways.com
     from: Jul 2018
-    to: Ongoing
+    to: Dec 2018
+    duration: 6 months
     statement:
       - >
         In my time on the MyAccount team I demonstrated to DAZN that I had a knack
