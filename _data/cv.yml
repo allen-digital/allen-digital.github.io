@@ -1,8 +1,8 @@
 me:
   name: Michael Allen
-  role: Contract Software Engineer
+  role: Lead Software Engineer
   avatar: https://s.gravatar.com/avatar/c73da5822a991b680a6fcaa465a78d56?size=200
-  nextAvailable: January 2020
+  nextAvailable: August 2021
 
 statement:
   - >
@@ -26,10 +26,10 @@ skills:
 
   dev:
     favour:
-      - Node.js
-      - ES6
-      - Scala
+      - Typescript
       - Python
+      - Node.js
+      - Scala
       - Bash
     skilled:
       - Java
@@ -97,10 +97,41 @@ skills:
         blockers
 
 experience:
+  - name: Kantan
+    from: Jan 2020
+    to: ongoing
+    statement:
+      - >
+        Kantan is a startup aiming to become the "OS for Tradespeople". Funded by the
+        OVO Group, they are a small team helping trade professionals work smarter.
+
+      - >
+        As one of the early hires I took a leadership role in planning and prioritising
+        work, improving code quality and helping our team work smarter. I focused on
+        shaping an inclusive culture and improving our systems and tools to unlock the
+        potential of our small team.
+
+      - >
+        From day 1 I took ownership of hard problems, such as a system for dynamic job
+        sheets, designing our solution and splitting it up into incremental improvements
+        so our team could implement a minimum releasable feature as soon as possible.
+
+      - >
+        I'm very proud of the effort my team and I put in to Kantan, delivering a
+        product that our users love against incredibly tight timescales.
+
+    technologies:
+      - React Native
+      - Typescript
+      - Apollo
+      - Graphql
+      - Python
+      - Django
+
   - name: Spark
     client: Financial Times
     from: Jan 2019
-    to: Ongoing
+    to: Jan 2020
     statement:
       - >
         Working as part of a cross-discipline team, I led the creation of a new
@@ -387,7 +418,6 @@ experience:
       - Play Framework
       - Mustache
 
-
 qualifications:
   - course: Certified Scrum Master
     school: ScrumAlliance
@@ -399,7 +429,7 @@ qualifications:
     school: Queens University Belfast
 
 contact:
-  twitter: '@michaeldfallen'
+  twitter: "@michaeldfallen"
   email: michael@allen.digital
   linkedIn: michaeldfallen
   web: www.michaelallen.io
