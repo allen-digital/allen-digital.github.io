@@ -1,0 +1,17 @@
+{
+    "spellright.language": [
+        "en-GB-10-1."
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "yaml"
+    ],
+    "cSpell.words": [
+        "baseguide",
+        "École",
+        "fédérale",
+        "polytechnique"
+    ]
+}
