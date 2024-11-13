@@ -9,26 +9,18 @@ metadata:
 
 statement:
   - >
-    An exceptional and respected professional engineer with experience leading and 
-    architecting digital services for government projects. I advocate a clean, 
-    systematic and delivery-driven approach to software development which 
-    helps cross-functional teams to pull together.
+    An dedicated, flexible, and reliable engineer with experience leading teams
+    and delivering a range of complex digital services over 13 years.
 
   - >
-    As an engineering leader I prioritise reducing the barrier of entry for
-    cross team collaboration through a "rising tide lifts all boats" approach.
-    I take a hands on approach to tooling modernisation, automation of toil, and
-    architecture standardisation and simplification then through advocacy and
-    outreach drive the benefits through the rest of the organisation.
+    As an engineering leader I value technical excellence, continuous
+    improvement and transparent communication. I exploit my practical platforms
+    engineering background to drive tooling modernisation and automate toil
+    resulting in more reliable delivery, and happier engineers.
 
   - >
-    As a technical lead I take team improvement seriously, putting effort into 
-    upskilling through pair programming, mentoring and empowerment. I work very
-    closely with Product and Stakeholder representatives to focus my team on
-    the core value underlying our projects.
-
-  - >
-    I am dedicated, flexible, and reliable, a valuable addition to any team.
+    My goal is always to balance empowering my team to do meaningful work,
+    whilst prioritising user value and key stakeholder needs.
 
 skills:
   intro: >
@@ -44,22 +36,23 @@ skills:
           I have extensive experience working with Product Owners and Business
           representatives to develop agile, iterative plans
         - >
-          I have successfully led teams in a variety of engagement formats including:
-          greenfield product development, legacy system displacement, and digital
-          transformation
+          I have successfully led teams in a variety of engagement formats
+          including: greenfield product development, legacy system displacement,
+          and digital transformation
         - >
           I work with my development teams and Product representatives to build
-          sustainable, predictable delivery through continuous iteration on our plan
-          at high and low levels of detail
+          sustainable, predictable delivery through continuous iteration on our
+          plan at high and low levels of detail
         - >
-          I have taken failing projects and reformed them into successful deliveries
-          by running discovery and alpha phases, reducing the scope of an initial release,
-          restructuring the product to development pipeline to reduce wasted effort, and
-          relentlessly focusing on the DORA principles of release early and release often
+          I have taken failing projects and reformed them into successful
+          deliveries by running discovery and alpha phases, reducing the scope
+          of an initial release, restructuring the product to development
+          pipeline to reduce wasted effort, and relentlessly focusing on the
+          DORA principles of release early and release often
         - >
-          I have experience pitching projects both to internal stakeholders and sponsors
-          and to external clients, including preparing pitch packs, presentations, and
-          project forecasts
+          I have experience pitching projects both to internal stakeholders and
+          sponsors and to external clients, including preparing pitch packs,
+          presentations, and project forecasts
 
     - name: People Management
       detail:
@@ -68,12 +61,12 @@ skills:
           simultaneously clean up areas of the codebase that are in need of
           refactoring and teach good practices to the team
         - >
-          I have implemented 360 degree feedback processes and performance review
-          schedules on teams where existing feedback processes were missing
-          or inadequate
+          I have implemented 360 degree feedback processes and performance
+          review schedules on teams where existing feedback processes were
+          missing or inadequate
         - >
-          I use regular 1 to 1 meetings to provide timely feedback and dive
-          into my team members wants and needs for their role
+          I use regular 1 to 1 meetings to provide timely feedback and dive into
+          my team members wants and needs for their role
         - >
           I have deployed organisation wide feedback surveys to gather deeper
           understand of team satisfaction and present the data to upper
@@ -95,15 +88,16 @@ skills:
         - Objective C
       detail:
         - >
-          I enforce best practice approaches to testing and code quality
-          through code reviews, pair programming, and automated linters
+          I enforce best practice approaches to testing and code quality through
+          code reviews, pair programming, and automated linters
         - >
-          I employ living documentation methods such as Architectural Decision Records
-          (ADRs), runbooks, and collaborative policy handbooks to ensure that direction
-          is clearly understood and shared amongst my teams
+          I employ living documentation methods such as Architectural Decision
+          Records (ADRs), runbooks, and collaborative policy handbooks to ensure
+          that direction is clearly understood and shared amongst my teams
         - >
-          I use system level thinking, such as Wardley Maps and C4 diagrams, to aid in
-          driving out the root cause of technical issues and identify risks during planning
+          I use system level thinking, such as Wardley Maps and C4 diagrams, to
+          aid in driving out the root cause of technical issues and identify
+          risks during planning
 
     - name: Infrastructure
       favour:
@@ -122,8 +116,8 @@ skills:
         - Azure
       detail:
         - >
-          I encourage my teams to own their code through to live operation, owning
-          their deployment pipeline or collaborating closely with Ops
+          I encourage my teams to own their code through to live operation,
+          owning their deployment pipeline or collaborating closely with Ops
         - >
           I build tools and systems that empower product teams to self-serve and
           remove barriers to entry for complex shared systems
@@ -131,8 +125,8 @@ skills:
           I look to automate repetitive tasks at every step of development,
           including automated build, deployment and testing
         - >
-          I have real world experience leading teams doing full Continuous Delivery,
-          releasing to production safely multiple times a day
+          I have real world experience leading teams doing full Continuous
+          Delivery, releasing to production safely multiple times a day
         - >
           I emphasise Devops culture on teams I lead, by supporting developers
           learning to build infrastructure automation and deployment code
@@ -153,8 +147,49 @@ experience:
     duration: 3 years, 2 months
     statement:
       - >
+        I joined THE to lead on replacing an aging data capture system, which
+        underpins the company's primary revenue stream. Collections 2.0 would
+        allow the THE Data team to self serve using a WYSIWYG visual editor,
+        reducing the cost of creating new collections, removing inter-team
+        dependencies and handovers, and enabling THE to gather more data each
+        year, driving growth in the Data Products revenue.
+
       - >
+        As a growth critical project, Collections 2.0 involved senior
+        stakeholders from every side of the business. A significant part of my
+        role was to negotiate for mutually good outcomes between the various,
+        sometimes conflicting, stakeholder needs, our Engineering teams expected
+        quality and operability standards, and the time and cost implications of
+        the project plan.
+
       - >
+        My hiring was part of the Engineering organisation growth from a handful
+        of scrappy engineers.  I was empowered by our CTO to set the base
+        standard for new services and drive changes through the team that would
+        level up every project. In this role I focused on tooling modernisation,
+        taking the our teams away from hand-rolled CI and Auth systems to modern
+        SAAS products, and introducing modern software development practices
+        such as Continuous Delivery and Incident Management.
+
+      - >
+        Through the introduction of automated linters, modernisation of tooling,
+        and DORA metrics gathering, I provided management with the evidence
+        needed to calm fears around Continuous Delivery. As a result our
+        production deployments went from once a month, with weeks of manual QA
+        as a quality gate and a change fail rate above 50%, to multiple times a
+        week with a change fail rate below 0.5%.
+
+    contacts:
+      - name: Matthew Brown
+        url: https://www.linkedin.com/in/matthew-brown-39972a66
+
+    technologies:
+      - Typescript
+      - React
+      - NestJS
+      - NextJS
+      - Kubernetes
+      - Harness
 
   - name: Shared Parental Leave
     client: Daughter, 9 months old
@@ -163,19 +198,19 @@ experience:
     duration: 3 months
     statement:
       - >
-        My daughter was born during the second COVID lockdown. Working on a startup for her
-        first 6 months led to me missing more of her early moments than I would have liked,
-        despite working from home at the time.
+        My daughter was born during the second COVID lockdown. Working on a
+        startup for her first 6 months led to me missing more of her early
+        moments than I would have liked, despite working from home at the time.
 
       - >
-        I highly value sharing parental responsibilities and wanted to spend a dedicated period
-        of time caring for my daughter. I left Kantan in April in order to spend 3 months with
-        her before starting a new position.
+        I highly value sharing parental responsibilities and wanted to spend a
+        dedicated period of time caring for my daughter. I left Kantan in April
+        in order to spend 3 months with her before starting a new position.
 
       - >
-        As an example of a particular and demanding stakeholder, my daughter reinforced the
-        importance of managing short tempers and how to present a message in the right light to
-        get the desired result.
+        As an example of a particular and demanding stakeholder, my daughter
+        reinforced the importance of managing short tempers and how to present a
+        message in the right light to get the desired result.
 
     skills:
       - Conflict resolution
@@ -188,23 +223,25 @@ experience:
     duration: 1 year, 4 months
     statement:
       - >
-        Kantan was a startup aiming to become the "OS for Tradespeople". Funded by the
-        OVO Group, they are a small team helping trade professionals work smarter.
+        Kantan was a startup aiming to become the "OS for Tradespeople". Funded
+        by the OVO Group, they are a small team helping trade professionals work
+        smarter.
 
       - >
-        As one of the early hires I took a leadership role in planning and prioritising
-        work, improving code quality and helping our team work smarter. I focused on
-        shaping an inclusive culture and improving our systems and tools to unlock the
-        potential of our small team.
+        As one of the early hires I took a leadership role in planning and
+        prioritising work, improving code quality and helping our team work
+        smarter. I focused on shaping an inclusive culture and improving our
+        systems and tools to unlock the potential of our small team.
 
       - >
-        From day 1 I took ownership of hard problems, such as a system for dynamic job
-        sheets, designing our solution and splitting it up into incremental improvements
-        so our team could implement a minimum releasable feature as soon as possible.
+        From day 1 I took ownership of hard problems, such as a system for
+        dynamic job sheets, designing our solution and splitting it up into
+        incremental improvements so our team could implement a minimum
+        releasable feature as soon as possible.
 
       - >
-        I'm very proud of the effort my team and I put in to Kantan, delivering a
-        product that our users love against incredibly tight timescales.
+        I'm very proud of the effort my team and I put in to Kantan, delivering
+        a product that our users love against incredibly tight timescales.
 
     technologies:
       - React Native
@@ -222,22 +259,23 @@ experience:
     statement:
       - >
         Working as part of a cross-discipline team, I led the creation of a new
-        Content Editor based on the Prosemirror library and React. During initial
-        development I focused on proving the teams main requirements of a simple
-        user interface, interactive components (to allow customisation of content),
-        and multi-user collaboration.
+        Content Editor based on the Prosemirror library and React. During
+        initial development I focused on proving the teams main requirements of
+        a simple user interface, interactive components (to allow customisation
+        of content), and multi-user collaboration.
 
       - >
         As Prosemirror's interfaces are quite complicated and the library was
         unknown to the team I built abstractions to integrate Prosemirror with
-        the more familiar world of React. This allowed the team to build powerful
-        interactive components into the editing surface.
+        the more familiar world of React. This allowed the team to build
+        powerful interactive components into the editing surface.
 
       - >
         After initial implementation and a successful switch of all users to the
-        new Prosemirror editor, I worked on building a powerful version management
-        system that allowed users to track contributions to an article, compare
-        differences between each version and roll back undesired changes.
+        new Prosemirror editor, I worked on building a powerful version
+        management system that allowed users to track contributions to an
+        article, compare differences between each version and roll back
+        undesired changes.
 
     technologies:
       - Prosemirror
@@ -256,10 +294,10 @@ experience:
     duration: 6 months
     statement:
       - >
-        In my time on the MyAccount team I demonstrated to DAZN that I had a knack
-        for finding and fixing platform level issues. I was asked to join the
-        Core team, who are responsible for DAZNs code delivery platform, to help
-        them improve the platforms reliability.
+        In my time on the MyAccount team I demonstrated to DAZN that I had a
+        knack for finding and fixing platform level issues. I was asked to join
+        the Core team, who are responsible for DAZNs code delivery platform, to
+        help them improve the platforms reliability.
       - >
         In the Core team I have proposed and implemented changes that
         dramatically reduce integration failures, reduced merge-to-deploy cycle
@@ -280,16 +318,16 @@ experience:
     duration: 4 months
     statement:
       - >
-        As a Senior React Developer, I worked with a 4 developer team to build the
-        MyAccount section of DAZNs rebuilt streaming platform. In building MyAccount
-        I quickly got up to speed with modern JS frameworks the DAZN team used, MobX
-        and MobX-state-tree for state management and React.
+        As a Senior React Developer, I worked with a 4 developer team to build
+        the MyAccount section of DAZNs rebuilt streaming platform. In building
+        MyAccount I quickly got up to speed with modern JS frameworks the DAZN
+        team used, MobX and MobX-state-tree for state management and React.
       - >
-        I took the lead on building a library that integrated MobX with React-router,
-        allowing the teams in DAZN to benefit from both technologies. I treated this
-        library as if it was an open source project, generously documenting it and
-        gathering feedback from users in order to improve it. Three of the teams now
-        use it in their apps.
+        I took the lead on building a library that integrated MobX with
+        React-router, allowing the teams in DAZN to benefit from both
+        technologies. I treated this library as if it was an open source
+        project, generously documenting it and gathering feedback from users in
+        order to improve it. Three of the teams now use it in their apps.
     technologies:
       - React
       - Mobx and Mobx-state-tree
@@ -387,9 +425,9 @@ experience:
     duration: 3 months
     statement:
       - >
-        As Infrastructure Engineer, I built an automated delivery pipeline
-        that needed to deploy in to a highly secure environment that we had
-        no access to.
+        As Infrastructure Engineer, I built an automated delivery pipeline that
+        needed to deploy in to a highly secure environment that we had no access
+        to.
     technologies:
       - Ansible
       - Terraform
@@ -418,14 +456,14 @@ experience:
     duration: 1 year, 8 months
     statement:
       - >
-        As Technical Lead, I led a 7 person team in the development of the
-        Sign your Mortgage service. The team comprised of a mix of contractors
-        and Civil Servants, who were in the process of learning new technologies
-        and modernising the Land Registry's product delivery.
+        As Technical Lead, I led a 7 person team in the development of the Sign
+        your Mortgage service. The team comprised of a mix of contractors and
+        Civil Servants, who were in the process of learning new technologies and
+        modernising the Land Registry's product delivery.
       - >
         I closely mentored the Civil Servants in my team, through pair
-        programming and workshops, to help them gain skill in the tech we
-        were working in as ultimately they would own the service once complete.
+        programming and workshops, to help them gain skill in the tech we were
+        working in as ultimately they would own the service once complete.
       - >
         I designed the system architecture iteratively based on discussions with
         the Product Owner and investigation of the requirements with Land
@@ -478,8 +516,8 @@ experience:
     duration: 2 years, 6 months
     statement:
       - >
-        During the initial Alpha of the Register to Vote service I worked as
-        a developer in building the service collaboratively with Design and
+        During the initial Alpha of the Register to Vote service I worked as a
+        developer in building the service collaboratively with Design and
         Research.
       - >
         After Alpha the team split in two, with half focusing on the backend
@@ -516,7 +554,6 @@ qualifications:
     school: Queens University Belfast
 
 contact:
-  twitter: "@michaeldfallen"
   email: michael@allen.digital
   linkedIn: michaeldfallen
   web: www.michaelallen.io

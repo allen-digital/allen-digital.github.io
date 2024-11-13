@@ -231,6 +231,7 @@ section {
   &.experience {
     margin-top: $spacing-base;
     position: relative;
+    align-items: flex-start;
 
     &::before {
       content: '';
@@ -238,8 +239,11 @@ section {
       width: 1px;
       background-color: $med-grey;
       left: 40%;
-      height: 100%;
-      top: 1.75em;
+      height: calc(100% + #{$spacing-base});
+
+      @include mq(0px, $until: md, $media-type: screen) {
+        display: none;
+      }
       
       @include print {
         left: 30%;
@@ -254,12 +258,27 @@ section {
       border-radius: 100%;
       background-color: $light-grey;
       border: 0.1em solid $med-grey;
-      right: -0.55em;
-      top: 0.5em;
+      right: 0;
+      top: 0.25em;
+      outline: 0.3em solid #fff;
+      transform: translateX(50%);
+
+      @include mq(0px, $until: md, $media-type: screen) {
+        display: none;
+      }
     }
 
-    div {
-      padding-top: 0.25em;
+    header {
+      @include mq(md, $media-type: screen) {
+        position: sticky;
+        top: 1em;
+      }
+
+      h3 {
+        @include print {
+          margin-top: -0.15em;
+        }
+      }
     }
   }
 
@@ -350,7 +369,7 @@ ul {
 
     &:before {
       content:attr(aria-label);
-      display: inline-block;
+      display: block;
       float: left;
       margin-right: 0.5em;
     }
