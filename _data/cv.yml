@@ -299,7 +299,7 @@ experience:
         the Core team, who are responsible for DAZNs code delivery platform, to
         help them improve the platforms reliability.
       - >
-        In the Core team I have proposed and implemented changes that
+        In the Core team I advocated for and implemented changes that
         dramatically reduce integration failures, reduced merge-to-deploy cycle
         time from 50 mins to 3 mins, and improved developer feedback loops.
     technologies:
@@ -379,14 +379,13 @@ experience:
     duration: 1 year, 5 months
     statement:
       - >
-        As Technical Lead, I led a team in the development of the Apply for
-        Divorce service. Starting from discovery of the problem space through to
-        release and iteration of a successful Private Beta, I shaped the
-        technical design and pushed for constantly better software and software
-        delivery.
+        As Technical Lead, I led a large team in the development of the Apply
+        for Divorce service from Discovery through to release and iteration of a
+        successful Private Beta. I shaped the technical design and pushed for
+        constantly better software and software delivery.
       - >
         In order to prevent blocking the team while we hired more Ops staff, I
-        worked with a fellow Tech Lead in building and advocating for more
+        worked with a fellow Tech Lead in advocating for and building a more
         reliable, automated, Infrastructure. Together we reinvigorated the
         programme's Ops team and brought more modern release practices to the
         development pipeline.
@@ -401,19 +400,6 @@ experience:
         url: https://www.linkedin.com/in/rhys-williams-8062771/
       - name: Chris Neale
         url: https://www.linkedin.com/in/christopherneale/
-
-  - name: Lighthouse support
-    client: Defence Science and Technology Laboratory
-    via:
-      name: Digi2al
-      link: https://www.digi2al.com
-    from: Dec 2016
-    to: Feb 2017
-    duration: 3 months
-    statement:
-      - >
-        Ongoing support for the team in DSTL as they scaled out the Lighthouse
-        project to more users.
 
   - name: Lighthouse
     client: Defence Science and Technology Laboratory
@@ -458,12 +444,9 @@ experience:
       - >
         As Technical Lead, I led a 7 person team in the development of the Sign
         your Mortgage service. The team comprised of a mix of contractors and
-        Civil Servants, who were in the process of learning new technologies and
-        modernising the Land Registry's product delivery.
-      - >
-        I closely mentored the Civil Servants in my team, through pair
-        programming and workshops, to help them gain skill in the tech we were
-        working in as ultimately they would own the service once complete.
+        Civil Servants, who were new to development. We used pair programming
+        and workshops to help them gain the skills necessary to own the service
+        once complete.
       - >
         I designed the system architecture iteratively based on discussions with
         the Product Owner and investigation of the requirements with Land
@@ -516,15 +499,10 @@ experience:
     duration: 2 years, 6 months
     statement:
       - >
-        During the initial Alpha of the Register to Vote service I worked as a
-        developer in building the service collaboratively with Design and
-        Research.
-      - >
-        After Alpha the team split in two, with half focusing on the backend
-        service and the other half focusing on the frontend user journey. On
-        that team I stepped in to act as a Lead Developer for the Frontend,
-        designing the component architecture for the Frontend app and
-        implementing a significant amount of the components.
+        Through initial Alpha to Beta and Live release, I worked as the primary
+        engineer on the Register to Vote frontend application, designing the
+        component architecture for the Frontend app and implementing a
+        significant amount of the components.
       - >
         I worked closely with the Designer and Researcher to ensure that the app
         held to the best experience possible for the user.
