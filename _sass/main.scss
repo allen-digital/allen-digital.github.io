@@ -103,6 +103,13 @@ footer {
   @include print {
     display: none;
   }
+
+  li {
+
+    &.llm-instructions {
+      opacity: 0.5;
+    }
+  }
 }
 
 .top-matter {
@@ -126,6 +133,7 @@ footer {
     @include print {
       @include column(50%);
       text-align: left;
+      flex-grow: 1;
     }
 
     .subtitle {
@@ -166,6 +174,7 @@ footer {
       @include column(50%);
       display: block;
       text-align: right;
+      flex-basis: content;
 
       .dim {
         color: $print-grey !important;
@@ -186,9 +195,9 @@ section.statement {
       -moz-border-radius: 99em;
       border-radius: 99em;
       box-shadow: 0 1px 3px 1px rgba(0,0,0,0.25);
+      aspect-ratio: 1/1;
       @include print {
         width: 8rem;
-        height: 8rem;
       }
     }
   }
@@ -221,6 +230,60 @@ section {
 
   &.experience {
     margin-top: $spacing-base;
+    position: relative;
+    align-items: flex-start;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 1px;
+      background-color: $med-grey;
+      left: 40%;
+      height: calc(100% + #{$spacing-base});
+
+      @include mq(0px, $until: md, $media-type: screen) {
+        display: none;
+      }
+      
+      @include print {
+        display: none;
+      }
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      width: 1em;
+      height: 1em;
+      border-radius: 100%;
+      background-color: $light-grey;
+      border: 0.1em solid $med-grey;
+      right: 0;
+      top: 0.25em;
+      outline: 0.3em solid #fff;
+      transform: translateX(50%);
+
+      @include mq(0px, $until: md, $media-type: screen) {
+        display: none;
+      }
+
+      @include print {
+        display: none;
+      }
+    }
+
+    header {
+      @include mq(md, $media-type: screen) {
+        position: sticky;
+        top: 1em;
+      }
+
+      h3 {
+        @include print {
+          margin-top: -0.15em;
+        }
+      }
+    }
   }
 
   header {
@@ -310,7 +373,7 @@ ul {
 
     &:before {
       content:attr(aria-label);
-      display: inline-block;
+      display: block;
       float: left;
       margin-right: 0.5em;
     }

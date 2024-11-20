@@ -1,124 +1,238 @@
 me:
   name: Michael Allen
-  role: Lead Software Engineer
+  role: Technical Leader
   avatar: https://s.gravatar.com/avatar/c73da5822a991b680a6fcaa465a78d56?size=200
-  nextAvailable: August 2021
+  nextAvailable: December 2024
+
+metadata:
+  lastUpdated: 6th Nov 2024
 
 statement:
   - >
-    An exceptional and respected professional developer with experience leading and 
-    architecting digital services for government projects. I advocate a clean, 
-    systematic and delivery-driven approach to Agile software development which 
-    helps cross-functional teams to pull together.
+    An dedicated, flexible, and reliable engineer with experience leading teams
+    and delivering a range of complex digital services over 13 years.
 
   - >
-    As a technical lead I take team improvement seriously, putting effort into 
-    upskilling through pair programming, mentoring and empowerment.
+    As an engineering leader I value technical excellence, continuous
+    improvement and transparent communication. I exploit my practical platforms
+    engineering background to drive tooling modernisation and automate toil
+    resulting in more reliable delivery, and happier engineers.
 
   - >
-    I am dedicated, flexible, and reliable, a valuable addition to any team.
+    My goal is always to balance empowering my team to do meaningful work,
+    whilst prioritising user value and key stakeholder needs.
 
 skills:
   intro: >
-    I consider myself a T shaped developer, with hands-on experience in every
-    area of Software Development. I also consider myself tool-agnostic, capable
-    of rapidly becoming effective and productive in any language or toolchain.
+    I consider myself a skilled technical leader and T-shaped developer, with
+    hands-on experience in every area of Software Development. I also consider
+    myself tool-agnostic, capable of rapidly becoming effective and productive
+    in any language or toolchain.
 
-  dev:
-    favour:
-      - Typescript
-      - Python
-      - Node.js
-      - Scala
-      - Bash
-    skilled:
-      - Java
-      - Ruby
-      - CSS
-      - HTML
-      - C#
-      - Objective C
-    detail:
-      - >
-        I gently enforce best practice approach to testing and code quality
-        through code reviews and pair programming
-      - >
-        I use targeted pair refactoring to work with members of a team to
-        simultaneously clean up areas of the codebase that are in need of
-        refactoring and teach good practices to the team
-      - >
-        I take a pragmatic approach to reuse of code, asking my developers to
-        follow the Rule of 3, "rewrite it three times before writing a reuseable
-        solution"
+  areas:
+    - name: Agile Delivery
+      detail:
+        - >
+          I have extensive experience working with Product Owners and Business
+          representatives to develop agile, iterative plans
+        - >
+          I have successfully led teams in a variety of engagement formats
+          including: greenfield product development, legacy system displacement,
+          and digital transformation
+        - >
+          I work with my teams to build sustainable, predictable delivery
+          through continuous refinement of the plan
+        - >
+          I have reformed failing projects into successful deliveries by
+          re-running discovery and alpha phases, reducing the scope of an
+          initial release, and releasing early and often
+        - >
+          I have experience pitching projects both to internal stakeholders and
+          sponsors and to external clients, including preparing pitch packs,
+          presentations, and project forecasts
 
-  ops:
-    favour:
-      - Drone CI
-      - Docker
-      - Ansible
-      - Nginx
-      - AWS
-    skilled:
-      - Puppet
-      - Heroku
-      - Terraform
-      - Azure
-    detail:
-      - >
-        I encourage my teams to own their code through to live operation, owning
-        their deployment pipeline or collaborating closely with Ops
-      - >
-        I look to automate repetitive tasks at every step of development,
-        including automated build, deployment and testing
-      - I have real world experience building Continuous Integration pipelines
-      - >
-        I emphasise Devops culture on teams I lead, by supporting developers
-        learning to build infrastructure automation and deployment code
+    - name: People Management
+      detail:
+        - >
+          I use targeted pair refactoring to work with members of a team to
+          simultaneously clean up areas of the codebase that are in need of
+          refactoring and teach good practices
+        - >
+          I have implemented 360 degree feedback processes and performance
+          review schedules on teams where existing feedback processes were
+          missing or inadequate
+        - >
+          I use regular 1 to 1 meetings to provide timely feedback and dive into
+          my team members wants and needs for their role
+        - >
+          I have deployed organisation wide feedback surveys to gather deeper
+          understanding of team satisfaction and present the data to upper
+          management to feed into organisational change proposals
 
-  tools:
-    detail:
-      - I work on Ubuntu and Mac OSX
-      - I use Docker to create development environments
-      - I have used VirtualBox and Vagrant for development environments
-      - I am fluent in Bash and Zsh
-      - I use Vim as my primary editor, fallback on VSCode if Vim doesn't suit
+    - name: Development
+      favour:
+        - Typescript
+        - Python
+        - Node.js
+        - Scala
+        - Bash
+      skilled:
+        - Java
+        - Ruby
+        - CSS
+        - HTML
+        - C#
+        - Objective C
+      detail:
+        - >
+          I enforce best practice approaches to testing and code quality through
+          code reviews, pair programming, and automated linters
+        - >
+          I employ living documentation methods such as Architectural Decision
+          Records (ADRs), runbooks, and collaborative policy handbooks to ensure
+          that direction is clearly understood and shared amongst my teams
+        - >
+          I use system level thinking, such as Wardley Maps and C4 diagrams, to
+          aid in driving out the root cause of technical issues and identify
+          risks during planning
 
-  practices:
-    detail:
-      - >
-        I am skilled at teaching others how to approach writing user stories and
-        training them in Agile development
-      - >
-        I have led Product Owners and Business Analysts in reshaping their
-        Waterfall plan into a Backlog of user focused stories
-      - >
-        I have experience working on teams as a Scrum Master, mediating
-        disputes, clearing up miscommunications, and finding solutions to
-        blockers
+    - name: Infrastructure
+      favour:
+        - Kubernetes
+        - Circle CI
+        - Harness
+        - Docker
+        - Nginx
+        - AWS
+      skilled:
+        - Drone CI
+        - Ansible
+        - Puppet
+        - Heroku
+        - Terraform
+        - Azure
+      detail:
+        - >
+          I encourage my teams to own their code through to live operation,
+          owning their deployment pipeline or collaborating closely with Ops
+        - >
+          I build tools and systems that empower product teams to self-serve and
+          remove barriers to entry for complex shared systems
+        - >
+          I look to automate repetitive tasks at every step of development,
+          including automated build, deployment and testing
+        - >
+          I have real world experience leading teams doing full Continuous
+          Delivery, releasing to production safely multiple times a day
+        - >
+          I emphasise Devops culture on teams I lead, by supporting developers
+          learning to build infrastructure automation and deployment code
+
+    - name: Tools
+      detail:
+        - I work on Ubuntu and Mac OSX
+        - I use Docker to create development environments
+        - I have used VirtualBox and Vagrant for development environments
+        - I am fluent in Bash and Zsh
+        - I use Vim as my primary editor, fallback on VSCode if Vim doesn't suit
 
 experience:
-  - name: Kantan
-    from: Jan 2020
-    to: ongoing
+  - name: Collections 2.0
+    client: Times Higher Education
+    from: Aug 2021
+    to: Sep 2024
+    duration: 3 years, 2 months
     statement:
       - >
-        Kantan is a startup aiming to become the "OS for Tradespeople". Funded by the
-        OVO Group, they are a small team helping trade professionals work smarter.
+        I joined THE to lead on replacing an aging data capture system, which
+        underpins the company's primary revenue stream. Collections 2.0 would
+        allow the THE Data team to self serve using a WYSIWYG visual editor,
+        reducing the cost of creating new collections, removing inter-team
+        dependencies and handovers, and enabling THE to gather more data each
+        year, driving growth in the Data Products revenue.
 
       - >
-        As one of the early hires I took a leadership role in planning and prioritising
-        work, improving code quality and helping our team work smarter. I focused on
-        shaping an inclusive culture and improving our systems and tools to unlock the
-        potential of our small team.
+        As a growth critical project, Collections 2.0 involved senior
+        stakeholders from every side of the business. A significant part of my
+        role was to negotiate for mutually good outcomes between the various,
+        sometimes conflicting, stakeholder needs, our Engineering teams expected
+        quality and operability standards, and the time and cost implications of
+        the project plan.
 
       - >
-        From day 1 I took ownership of hard problems, such as a system for dynamic job
-        sheets, designing our solution and splitting it up into incremental improvements
-        so our team could implement a minimum releasable feature as soon as possible.
+        My hiring was part of the Engineering organisation growth from a handful
+        of scrappy engineers.  I was empowered by our CTO to set the base
+        standard for new services and drive changes through the team that would
+        level up every project. In this role I focused on tooling modernisation,
+        taking the our teams away from hand-rolled CI and Auth systems to modern
+        SAAS products, and introducing modern software development practices
+        such as Continuous Delivery and Incident Management.
 
       - >
-        I'm very proud of the effort my team and I put in to Kantan, delivering a
-        product that our users love against incredibly tight timescales.
+        Through the introduction of automated linters, modernisation of tooling,
+        and DORA metrics gathering, I provided management with the evidence
+        needed to calm fears around Continuous Delivery. As a result our
+        production deployments went from once a month, with weeks of manual QA
+        as a quality gate and a change fail rate above 50%, to multiple times a
+        week with a change fail rate below 0.5%.
+
+    contacts:
+      - name: Matthew Brown
+        url: https://www.linkedin.com/in/matthew-brown-39972a66
+
+    technologies:
+      - Typescript
+      - React
+      - NestJS
+      - NextJS
+      - Kubernetes
+      - Harness
+
+  - name: Parental Leave
+    client: Daughter, 9 months old
+    from: May 2021
+    to: July 2021
+    duration: 3 months
+    statement:
+      - >
+        My daughter was born during the second COVID lockdown. Working on a
+        startup during "the event" led me to miss her early moments.
+
+      - >
+        I highly value sharing parental responsibilities and so I left Kantan in
+        April to spend 3 months dedicated to caring for her before starting a
+        new position.
+
+    skills:
+      - Conflict resolution
+      - Negotiation
+      - Prioritisation of conflicting requirements
+
+  - name: Kantan
+    from: Jan 2020
+    to: April 2021
+    duration: 1 year, 4 months
+    statement:
+      - >
+        Kantan was a startup aiming to become the "OS for Tradespeople". Funded
+        by the OVO Group, they are a small team helping trade professionals work
+        smarter.
+
+      - >
+        As one of the early hires I took a leadership role in planning and
+        prioritising work, improving code quality and helping our team work
+        smarter. I focused on shaping an inclusive culture and improving our
+        systems and tools to unlock the potential of our small team.
+
+      - >
+        From day 1 I took ownership of hard problems, such as a system for
+        dynamic job sheets, designing our solution and splitting it up into
+        incremental improvements so our team could implement a minimum
+        releasable feature as soon as possible.
+
+      - >
+        I'm very proud of the effort my team and I put in to Kantan, delivering
+        a product that our users love against incredibly tight timescales.
 
     technologies:
       - React Native
@@ -132,25 +246,27 @@ experience:
     client: Financial Times
     from: Jan 2019
     to: Jan 2020
+    duration: 1 year
     statement:
       - >
         Working as part of a cross-discipline team, I led the creation of a new
-        Content Editor based on the Prosemirror library and React. During inital
-        development I focused on proving the teams main requirements of a simple
-        user interface, interactive components (to allow customisation of content),
-        and multi-user collaboration.
+        Content Editor based on the Prosemirror library and React. During
+        initial development I focused on proving the teams main requirements of
+        a simple user interface, interactive components (to allow customisation
+        of content), and multi-user collaboration.
 
       - >
         As Prosemirror's interfaces are quite complicated and the library was
         unknown to the team I built abstractions to integrate Prosemirror with
-        the more familar world of React. This allowed the team to build powerful
-        interactive components into the editing surface.
+        the more familiar world of React. This allowed the team to build
+        powerful interactive components into the editing surface.
 
       - >
         After initial implementation and a successful switch of all users to the
-        new Prosemirror editor, I worked on building a powerful version management
-        system that allowed users to track contributions to an article, compare
-        differences between each version and roll back undesired changes.
+        new Prosemirror editor, I worked on building a powerful version
+        management system that allowed users to track contributions to an
+        article, compare differences between each version and roll back
+        undesired changes.
 
     technologies:
       - Prosemirror
@@ -159,54 +275,34 @@ experience:
       - Webpack
       - Heroku
 
-  - name: Core team
-    client: DAZN
-    via:
-      name: 101 Ways
-      link: https://www.101ways.com
-    from: Jul 2018
-    to: Dec 2018
-    duration: 6 months
-    statement:
-      - >
-        In my time on the MyAccount team I demonstrated to DAZN that I had a knack
-        for finding and fixing platform level issues. I was asked to join the
-        Core team, who are responsible for DAZNs code delivery platform, to help
-        them improve the platforms reliability.
-      - >
-        In the Core team I have proposed and implemented changes that
-        dramatically reduce integration failures, reduced merge-to-deploy cycle
-        time from 50 mins to 3 mins, and improved developer feedback loops.
-    technologies:
-      - Node.JS
-      - Drone CI
-      - Webpack
-      - AWS Lambda
-
-  - name: MyAccount team
+  - name: MyAccount and Core teams
     client: DAZN
     via:
       name: 101 Ways
       link: https://www.101ways.com
     from: Mar 2018
-    to: Jun 2018
-    duration: 4 months
+    to: Dec 2018
+    duration: 10 months
     statement:
       - >
-        As a Senior React Developer, I worked with a 4 developer team to build the
-        MyAccount section of DAZNs rebuilt streaming platform. In building MyAccount
-        I quickly got up to speed with modern JS frameworks the DAZN team used, MobX
-        and MobX-state-tree for state management and React.
+        As a Senior React Developer, I worked with a 4 developer team to build
+        the MyAccount section of DAZNs new streaming platform. I took the lead
+        on building a library that integrated MobX with React-router. I treated
+        this library as if it was an open source project, generously documenting
+        it and gathering feedback from users in order to improve it.
       - >
-        I took the lead on building a library that integrated MobX with React-router,
-        allowing the teams in DAZN to benefit from both technologies. I treated this
-        library as if it was an open source project, generously documenting it and
-        gathering feedback from users in order to improve it. Three of the teams now
-        use it in their apps.
+        Having demonstrated to DAZN that I had a knack for finding and fixing
+        platform level issues I was asked to join the Core team, who are
+        responsible for DAZNs code delivery platform. Here I implemented changes
+        that dramatically reduce integration failures, reduced merge-to-deploy
+        cycle time from 50 mins to 3 mins, and improved developer feedback
+        loops.
     technologies:
       - React
       - Mobx and Mobx-state-tree
+      - Node.JS
       - Webpack
+      - Drone CI
       - AWS Lambda
 
   - name: One per Page
@@ -254,14 +350,13 @@ experience:
     duration: 1 year, 5 months
     statement:
       - >
-        As Technical Lead, I led a team in the development of the Apply for
-        Divorce service. Starting from discovery of the problem space through to
-        release and iteration of a successful Private Beta, I shaped the
-        technical design and pushed for constantly better software and software
-        delivery.
+        As Technical Lead, I led a large team in the development of the Apply
+        for Divorce service from Discovery through to release and iteration of a
+        successful Private Beta. I shaped the technical design and pushed for
+        constantly better software and software delivery.
       - >
         In order to prevent blocking the team while we hired more Ops staff, I
-        worked with a fellow Tech Lead in building and advocating for more
+        worked with a fellow Tech Lead in advocating for and building a more
         reliable, automated, Infrastructure. Together we reinvigorated the
         programme's Ops team and brought more modern release practices to the
         development pipeline.
@@ -277,32 +372,19 @@ experience:
       - name: Chris Neale
         url: https://www.linkedin.com/in/christopherneale/
 
-  - name: Lighthouse support
-    client: Defence Science and Technology Laboratory
-    via:
-      name: Digi2al
-      link: https://www.digi2al.com
-    from: Dec 2016
-    to: Feb 2017
-    duration: 3 months
-    statement:
-      - >
-        Ongoing support for the team in DSTL as they scaled out the Lighthouse
-        project to more users.
-
   - name: Lighthouse
     client: Defence Science and Technology Laboratory
     via:
       name: Digi2al
       link: https://www.digi2al.com
     from: Jan 2016
-    to: March 2016
+    to: Mar 2016
     duration: 3 months
     statement:
       - >
-        As Infrastructure Engineer, I built an automated delivery pipeline
-        that needed to deploy in to a highly secure environment that we had
-        no access to.
+        As Infrastructure Engineer, I built an automated delivery pipeline that
+        could to deploy in to a highly secure environment that we had no access
+        to.
     technologies:
       - Ansible
       - Terraform
@@ -331,14 +413,11 @@ experience:
     duration: 1 year, 8 months
     statement:
       - >
-        As Technical Lead, I led a 7 person team in the development of the
-        Sign your Mortgage service. The team comprised of a mix of contractors
-        and Civil Servants, who were in the process of learning new technologies
-        and modernising the Land Registry's product delivery.
-      - >
-        I closely mentored the Civil Servants in my team, through pair
-        programming and workshops, to help them gain skill in the tech we
-        were working in as ultimately they would own the service once complete.
+        As Technical Lead, I led a 7 person team in the development of the Sign
+        your Mortgage service. The team comprised of a mix of contractors and
+        Civil Servants, who were new to development. We used pair programming
+        and workshops to support them in learning the skills necessary to own
+        the service once complete.
       - >
         I designed the system architecture iteratively based on discussions with
         the Product Owner and investigation of the requirements with Land
@@ -391,15 +470,10 @@ experience:
     duration: 2 years, 6 months
     statement:
       - >
-        Durating the initial Alpha of the Register to Vote service I worked as
-        a developer in building the service collaboratively with Design and
-        Research.
-      - >
-        After Alpha the team split in two, with half focusing on the backend
-        service and the other half focusing on the frontend user journey. On
-        that team I stepped in to act as a Lead Developer for the Frontend,
-        designing the component architecture for the Frontend app and
-        implementing a significant amount of the components.
+        Through initial Alpha to Beta and Live release, I worked as the primary
+        engineer on the Register to Vote frontend application, designing the
+        component architecture for the Frontend app and implementing a
+        significant amount of the components.
       - >
         I worked closely with the Designer and Researcher to ensure that the app
         held to the best experience possible for the user.
@@ -429,7 +503,6 @@ qualifications:
     school: Queens University Belfast
 
 contact:
-  twitter: "@michaeldfallen"
   email: michael@allen.digital
   linkedIn: michaeldfallen
   web: www.michaelallen.io
