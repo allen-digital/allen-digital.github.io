@@ -40,15 +40,12 @@ skills:
           including: greenfield product development, legacy system displacement,
           and digital transformation
         - >
-          I work with my development teams and Product representatives to build
-          sustainable, predictable delivery through continuous iteration on our
-          plan at high and low levels of detail
+          I work with my teams to build sustainable, predictable delivery
+          through continuous refinement of the plan
         - >
-          I have taken failing projects and reformed them into successful
-          deliveries by running discovery and alpha phases, reducing the scope
-          of an initial release, restructuring the product to development
-          pipeline to reduce wasted effort, and relentlessly focusing on the
-          DORA principles of release early and release often
+          I have reformed failing projects into successful deliveries by
+          re-running discovery and alpha phases, reducing the scope of an
+          initial release, and releasing early and often
         - >
           I have experience pitching projects both to internal stakeholders and
           sponsors and to external clients, including preparing pitch packs,
@@ -59,7 +56,7 @@ skills:
         - >
           I use targeted pair refactoring to work with members of a team to
           simultaneously clean up areas of the codebase that are in need of
-          refactoring and teach good practices to the team
+          refactoring and teach good practices
         - >
           I have implemented 360 degree feedback processes and performance
           review schedules on teams where existing feedback processes were
@@ -69,7 +66,7 @@ skills:
           my team members wants and needs for their role
         - >
           I have deployed organisation wide feedback surveys to gather deeper
-          understand of team satisfaction and present the data to upper
+          understanding of team satisfaction and present the data to upper
           management to feed into organisational change proposals
 
     - name: Development
@@ -191,7 +188,7 @@ experience:
       - Kubernetes
       - Harness
 
-  - name: Shared Parental Leave
+  - name: Parental Leave
     client: Daughter, 9 months old
     from: May 2021
     to: July 2021
@@ -199,18 +196,12 @@ experience:
     statement:
       - >
         My daughter was born during the second COVID lockdown. Working on a
-        startup for her first 6 months led to me missing more of her early
-        moments than I would have liked, despite working from home at the time.
+        startup during "the event" led me to miss her early moments.
 
       - >
-        I highly value sharing parental responsibilities and wanted to spend a
-        dedicated period of time caring for my daughter. I left Kantan in April
-        in order to spend 3 months with her before starting a new position.
-
-      - >
-        As an example of a particular and demanding stakeholder, my daughter
-        reinforced the importance of managing short tempers and how to present a
-        message in the right light to get the desired result.
+        I highly value sharing parental responsibilities and so I left Kantan in
+        April to spend 3 months dedicated to caring for her before starting a
+        new position.
 
     skills:
       - Conflict resolution
@@ -284,54 +275,34 @@ experience:
       - Webpack
       - Heroku
 
-  - name: Core team
-    client: DAZN
-    via:
-      name: 101 Ways
-      link: https://www.101ways.com
-    from: Jul 2018
-    to: Dec 2018
-    duration: 6 months
-    statement:
-      - >
-        In my time on the MyAccount team I demonstrated to DAZN that I had a
-        knack for finding and fixing platform level issues. I was asked to join
-        the Core team, who are responsible for DAZNs code delivery platform, to
-        help them improve the platforms reliability.
-      - >
-        In the Core team I advocated for and implemented changes that
-        dramatically reduce integration failures, reduced merge-to-deploy cycle
-        time from 50 mins to 3 mins, and improved developer feedback loops.
-    technologies:
-      - Node.JS
-      - Drone CI
-      - Webpack
-      - AWS Lambda
-
-  - name: MyAccount team
+  - name: MyAccount and Core teams
     client: DAZN
     via:
       name: 101 Ways
       link: https://www.101ways.com
     from: Mar 2018
-    to: Jun 2018
-    duration: 4 months
+    to: Dec 2018
+    duration: 10 months
     statement:
       - >
         As a Senior React Developer, I worked with a 4 developer team to build
-        the MyAccount section of DAZNs rebuilt streaming platform. In building
-        MyAccount I quickly got up to speed with modern JS frameworks the DAZN
-        team used, MobX and MobX-state-tree for state management and React.
+        the MyAccount section of DAZNs new streaming platform. I took the lead
+        on building a library that integrated MobX with React-router. I treated
+        this library as if it was an open source project, generously documenting
+        it and gathering feedback from users in order to improve it.
       - >
-        I took the lead on building a library that integrated MobX with
-        React-router, allowing the teams in DAZN to benefit from both
-        technologies. I treated this library as if it was an open source
-        project, generously documenting it and gathering feedback from users in
-        order to improve it. Three of the teams now use it in their apps.
+        Having demonstrated to DAZN that I had a knack for finding and fixing
+        platform level issues I was asked to join the Core team, who are
+        responsible for DAZNs code delivery platform. Here I implemented changes
+        that dramatically reduce integration failures, reduced merge-to-deploy
+        cycle time from 50 mins to 3 mins, and improved developer feedback
+        loops.
     technologies:
       - React
       - Mobx and Mobx-state-tree
+      - Node.JS
       - Webpack
+      - Drone CI
       - AWS Lambda
 
   - name: One per Page
@@ -412,7 +383,7 @@ experience:
     statement:
       - >
         As Infrastructure Engineer, I built an automated delivery pipeline that
-        needed to deploy in to a highly secure environment that we had no access
+        could to deploy in to a highly secure environment that we had no access
         to.
     technologies:
       - Ansible
@@ -445,8 +416,8 @@ experience:
         As Technical Lead, I led a 7 person team in the development of the Sign
         your Mortgage service. The team comprised of a mix of contractors and
         Civil Servants, who were new to development. We used pair programming
-        and workshops to help them gain the skills necessary to own the service
-        once complete.
+        and workshops to support them in learning the skills necessary to own
+        the service once complete.
       - >
         I designed the system architecture iteratively based on discussions with
         the Product Owner and investigation of the requirements with Land

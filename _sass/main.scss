@@ -246,7 +246,7 @@ section {
       }
       
       @include print {
-        left: 30%;
+        display: none;
       }
     }
 
@@ -264,6 +264,10 @@ section {
       transform: translateX(50%);
 
       @include mq(0px, $until: md, $media-type: screen) {
+        display: none;
+      }
+
+      @include print {
         display: none;
       }
     }
