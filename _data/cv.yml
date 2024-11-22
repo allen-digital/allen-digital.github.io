@@ -4,12 +4,14 @@ me:
   avatar: https://s.gravatar.com/avatar/c73da5822a991b680a6fcaa465a78d56?size=200
   nextAvailable: December 2024
 
-metadata:
-  lastUpdated: 6th Nov 2024
+contact:
+  email: michael@allen.digital
+  linkedIn: michaeldfallen
+  web: www.michaelallen.io
 
 statement:
   - >
-    An dedicated, flexible, and reliable engineer with experience leading teams
+    A dedicated, flexible, and reliable engineer with experience leading teams
     and delivering a range of complex digital services over 13 years.
 
   - >
@@ -502,7 +504,5 @@ qualifications:
   - course: Computer Science, 1st class Masters degree
     school: Queens University Belfast
 
-contact:
-  email: michael@allen.digital
-  linkedIn: michaeldfallen
-  web: www.michaelallen.io
+metadata:
+  lastUpdated: 22nd Nov 2024
