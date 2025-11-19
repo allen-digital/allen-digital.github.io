@@ -24,7 +24,12 @@
         <h1>{{ site.data.cv.me.name }}
           <span class="subtitle">{{ site.data.cv.me.role }}</span>
         </h1>
-        <p class="availability">Next available: {{ site.data.cv.me.nextAvailable }}</p>
+
+        <p class="availability">
+        {% if site.data.cv.me.nextAvailable %}
+          Next Available: {{ site.data.cv.me.nextAvailable }}
+        {% endif %}&nbsp;
+        </p>
       </header>
       <nav>
         <ul class="navigation">

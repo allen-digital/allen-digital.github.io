@@ -2,7 +2,7 @@ me:
   name: Michael Allen
   role: Technical Leader
   avatar: https://s.gravatar.com/avatar/c73da5822a991b680a6fcaa465a78d56?size=200
-  nextAvailable: December 2024
+  nextAvailable: false
 
 contact:
   email: michael@allen.digital
@@ -139,6 +139,71 @@ skills:
         - I use Vim as my primary editor, fallback on VSCode if Vim doesn't suit
 
 experience:
+  - name: FRED 3
+    client: Liberty IT
+    from: April 2025
+    to: ongoing
+    statement:
+      - >
+        I joined Liberty IT to lead the FRED team as a Principal Engineer. In
+        my time since joining I have quickly upskilled on a very complex, highly
+        distributed system.
+
+      - >
+        FRED is a data processing system that manages financial risk exposure
+        data, collecting it from mulitple teams in Liberty Mutual and enriching
+        it before publishing to a single source of truth.
+
+    technologies:
+      - Typescript
+      - Python
+      - React
+      - AWS Step Functions
+      - AWS Lambda
+      - AWS DynamoDB
+      - AWS Athena
+      - AWS CDK
+
+
+  - name: Cycling Campaigner and Treasurer
+    client: Ards and North Down Cycle Campaign
+    from: Nov 2024
+    to: ongoing
+    statement:
+      - >
+        In November 2024 I joined the Ards and North Down Cycle Campaign as a
+        campaigner and the groups Treasurer. I see my work with the Campaign as
+        an important part of giving back to the community.
+
+      - >
+        I take my two kids to school each morning by cargo bike and have seen
+        first hand how many kids would love to cycle commute but feel unable or
+        scared to do so due to lack of good infrastructure.
+
+      - >
+        I have worked on web presence and branding for the Campaign, bringing a
+        professionalism to how we present ourselves that encourages local and
+        national politicians to take the group seriously and engage with our
+        representation of our members.
+
+
+  - name: Parental Leave
+    client: Son, newborn
+    from: Oct 2024
+    to: Mar 2025
+    duration: 6 months
+    statement:
+      - >
+        With my daughter I regretted not being present during her early moments.
+        As a result, when my Son was born I was adamant that I would spend as
+        much time as I could with him.
+
+    skills:
+      - Non-verbal communication
+      - Anticipation of key stakeholder needs
+      - Maintenance of safety critical infrastructure
+
+
   - name: Collections 2.0
     client: Times Higher Education
     from: Aug 2021
@@ -206,9 +271,9 @@ experience:
         new position.
 
     skills:
-      - Conflict resolution
-      - Negotiation
-      - Prioritisation of conflicting requirements
+      - Non-verbal communication
+      - Anticipation of key stakeholder needs
+      - Maintenance of safety critical infrastructure
 
   - name: Kantan
     from: Jan 2020
